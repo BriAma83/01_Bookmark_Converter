@@ -1,63 +1,123 @@
-# Bookmark Converter
+# 🔖 Bookmark Converter
 
 A Python-based automation tool that converts bookmark collections between HTML, Excel, and browser bookmark formats.
 
 ## Overview
 
-This project was created to modernize and maintain large bookmark repositories that were originally stored in Word and HTML formats.
+Many bookmark repositories are maintained in Word documents, exported HTML files, or manually managed browser folders. This project simplifies bookmark management by converting bookmarks into a structured Excel repository and generating browser-compatible bookmark files.
 
-The solution:
-
-1. Extracts bookmarks from legacy HTML files.
-2. Converts bookmark information into a structured Excel repository.
-3. Generates Chrome and Microsoft Edge compatible bookmark files.
-4. Preserves folder and subfolder hierarchy.
-5. Simplifies long-term bookmark maintenance.
+---
 
 ## Features
 
-- HTML to Excel conversion
-- Excel to browser bookmark conversion
-- Chrome-compatible bookmark export
-- Microsoft Edge-compatible bookmark export
-- Folder and subfolder support
-- Structured bookmark repository
-- Easy maintenance through Excel
+✅ Convert HTML bookmark collections to Excel
 
-## Technologies
+✅ Maintain bookmark data in a structured repository
 
-- Python
-- pandas
-- openpyxl
-- BeautifulSoup
+✅ Generate Chrome-compatible bookmark files
+
+✅ Generate Microsoft Edge-compatible bookmark files
+
+✅ Preserve folder and subfolder hierarchy
+
+✅ Simplify ongoing bookmark maintenance
+
+---
 
 ## Workflow
 
-Legacy HTML
-↓
+```text
+HTML Bookmark File
+        ↓
+HTML_To_Excel.py
+        ↓
 Excel Repository
-↓
-Bookmark Generator
-↓
+        ↓
+Excel_To_Bookmarks.py
+        ↓
 Chrome / Edge Bookmark File
+```
 
-## Sample Structure
+---
 
+## Sample Folder Structure
+
+```text
 SO Favourite Links
-├── Communications & News
-├── Manuals
-├── Job Aids
+│
+├── Knowledge Base
+├── Communications
 ├── Forms
-│   ├── Provincial
-│   └── Federal
-├── Programs and Tools
-├── IT
-└── Training
+│   ├── Internal
+│   └── External
+├── Training
+├── Analytics
+├── Tools
+└── Reference
+    ├── Guides
+    └── Templates
+```
+
+---
+
+## Repository Contents
+
+```text
+Bookmark_Converter
+│
+├── README.md
+├── HTML_To_Excel.py
+├── Excel_To_Bookmarks.py
+├── Sample_Bookmarks.html
+└── Sample_Favorites_Links_Master.xlsx
+```
+
+---
+
+## Sample Excel Structure
+
+| ID | Main Folder | Subfolder | Bookmark Name | URL |
+|----|------------|------------|------------|-----|
+| 1 | Knowledge Base | | Company Knowledge Portal | https://knowledge.example.com |
+| 2 | Communications | | Daily News Hub | https://news.example.com |
+| 3 | Forms | Internal | Expense Claim Form | https://forms.example.com/expense |
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- OpenPyXL
+- BeautifulSoup4
+- HTML
+- Excel
+
+---
+
+## Use Cases
+
+- Browser bookmark management
+- Bookmark migration projects
+- Bookmark standardization
+- Bookmark repository maintenance
+- Knowledge management initiatives
+
+---
 
 ## Future Enhancements
 
-- Bookmark validation
 - Dead link detection
+- URL validation
+- Bookmark deduplication
 - SharePoint exports
 - Power BI reporting
 - Automated bookmark synchronization
+
+---
+
+## Author
+
+Amanda Briell
+
+Senior Business Consultant | Data Analytics | Process Improvement | Automation
