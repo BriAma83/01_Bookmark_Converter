@@ -43,7 +43,7 @@ Chrome / Edge Bookmark File
 ## Sample Folder Structure
 
 ```text
-SO Favourite Links
+Favourite Links
 │
 ├── Knowledge Base
 ├── Communications
