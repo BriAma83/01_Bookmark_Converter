@@ -60,16 +60,23 @@ SO Favourite Links
 
 ---
 
-## Repository Contents
+## Repository Structure
 
 ```text
 Bookmark_Converter
 │
-├── README.md
-├── HTML_To_Excel.py
-├── Excel_To_Bookmarks.py
-├── Sample_Bookmarks.html
-└── Sample_Favorites_Links_Master.xlsx
+├── Scripts
+│   ├── HTML_To_Excel.py
+│   └── Excel_To_Bookmarks.py
+│
+├── Sample_Data
+│   ├── Sample_Bookmarks.html
+│   └── Sample_Favorites_Links_Master.xlsx
+│
+├── Output
+│   └── Sample_Chrome_Bookmarks.html
+│
+└── README.md
 ```
 
 ---
